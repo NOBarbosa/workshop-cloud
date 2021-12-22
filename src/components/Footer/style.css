@@ -1,0 +1,9 @@
+.footer-component {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  margin-top: 20px;
+}
