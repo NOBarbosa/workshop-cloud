@@ -40,53 +40,59 @@ function Main(){
   };
     return(
      <main className='box'> 
-    <Box   sx={{ maxWidth: 400 }}>
-      <Stepper activeStep={activeStep} orientation="vertical">
-        {steps.map((step, index) => (
-          <Step key={step.label}>
-            <StepLabel
-              optional={
-                index === (steps.length - 1) ? (
-                  <Typography color={'white'} variant="caption">último</Typography>
-                ) : null
-              }
-            >
-              {step.label}
-            </StepLabel>
-            <StepContent>
-              <Typography color={'black'} >{step.description}</Typography>
-              <Box sx={{ mb: 2 }}>
-                <div>
-                  <Button
-                    variant="contained"
-                    onClick={handleNext}
-                    sx={{ mt: 1, mr: 1 }}
-                  >
-                    {index === steps.length - 1 ? 'Fim' : 'Próximo'}
-                  </Button>
-                  <Button
-                    
-                    disabled={index === 0}
-                    onClick={handleBack}
-                    sx={{ mt: 1, mr: 1 }}
-                  >
-                    Voltar
-                  </Button>
-                </div>
-              </Box>
-            </StepContent>
-          </Step>
-        ))}
-      </Stepper>
-      {activeStep === steps.length && (          
-          <Button 
-          onClick={handleReset} 
-          sx={{ mt: 1, mr: 1 }}
-          variant="contained">
-            Reset
-          </Button>
-      )}
-    </Box>
+      <div>
+        <h2>Introdução</h2>
+        <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+      <Box   sx={{ maxWidth: 400 }}>
+        <Stepper activeStep={activeStep} orientation="vertical">
+          {steps.map((step, index) => (
+            <Step key={step.label}>
+              <StepLabel
+                optional={
+                  index === (steps.length - 1) ? (
+                    <Typography color={'white'} variant="caption">último</Typography>
+                  ) : null
+                }
+              >
+                {step.label}
+              </StepLabel>
+              <StepContent>
+                <Typography color={'black'} >{step.description}</Typography>
+                <Box sx={{ mb: 2 }}>
+                  <div>
+                    <Button
+                      variant="contained"
+                      onClick={handleNext}
+                      sx={{ mt: 1, mr: 1 }}
+                    >
+                      {index === steps.length - 1 ? 'Fim' : 'Próximo'}
+                    </Button>
+                    <Button
+                      
+                      disabled={index === 0}
+                      onClick={handleBack}
+                      sx={{ mt: 1, mr: 1 }}
+                    >
+                      Voltar
+                    </Button>
+                  </div>
+                </Box>
+              </StepContent>
+            </Step>
+          ))}
+        </Stepper>
+        {activeStep === steps.length && (          
+            <Button 
+            onClick={handleReset} 
+            sx={{ mt: 1, mr: 1 }}
+            variant="contained">
+              Reset
+            </Button>
+        )}
+      </Box>
      </main>
     )
 }

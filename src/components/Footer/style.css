@@ -1,7 +1,28 @@
 .footer-component {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: space-between;
   height: 40px;
+  padding: 10px 30px;
   background-color: #f5f5f5;
+}
+
+.footer-component a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.container-rigth {
+  display: flex;
+  gap: 8px;
+}
+
+.container-members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.pointer {
+  cursor: pointer;
 }
