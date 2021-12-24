@@ -5,17 +5,21 @@
   font-family: "Roboto", sans-serif;
   width: 100%;
   height: 30%;
-  background-color: #1a1a1fee;
+  background-color: rgb(255, 255, 255);
   padding: 5px 2px;
+  box-shadow: 10px 5px 5px #b4b4b448;
 }
 .header-text {
-  color: white;
   font-weight: bold;
   font-size: 32px;
 }
 
 .header-logo {
   width: 130px;
+  height: 80px;
+}
+.header-logo-cloud {
+  width: 50px;
   height: 50px;
 }
 
@@ -28,5 +32,15 @@
 }
 .header-list a {
   text-decoration: none;
-  color: white;
+  color: #4285f4;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.header-title p {
+  color: #4285f4;
 }

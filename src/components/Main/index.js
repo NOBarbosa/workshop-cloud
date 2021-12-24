@@ -39,8 +39,8 @@ function Main(){
     setActiveStep(0);
   };
     return(
-    //  <main className='box'> 
-    <Box  alignSelf={'center'} sx={{ maxWidth: 400 }}>
+     <main className='box'> 
+    <Box   sx={{ maxWidth: 400 }}>
       <Stepper activeStep={activeStep} orientation="vertical">
         {steps.map((step, index) => (
           <Step key={step.label}>
@@ -54,7 +54,7 @@ function Main(){
               {step.label}
             </StepLabel>
             <StepContent>
-              <Typography color={'white'} >{step.description}</Typography>
+              <Typography color={'black'} >{step.description}</Typography>
               <Box sx={{ mb: 2 }}>
                 <div>
                   <Button
@@ -87,7 +87,7 @@ function Main(){
           </Button>
       )}
     </Box>
-    // </main>
+     </main>
     )
 }
 
