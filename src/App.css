@@ -1,1 +1,28 @@
+.font-bold {
+  font-family: "google sans bold", sans-serif;
+  font-weight: bold;
+}
 
+.font-medium {
+  font-family: "google sans medium", sans-serif;
+  font-weight: normal;
+}
+
+.font-regular {
+  font-family: "google sans regular", sans-serif;
+  font-weight: lighter;
+}
+
+.size-40 {
+  font-size: 40px;
+}
+.size-18 {
+  font-size: 18px;
+}
+.size-14 {
+  font-size: 14px;
+}
+
+.size-28 {
+  font-size: 28px;
+}

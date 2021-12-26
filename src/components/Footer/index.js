@@ -1,7 +1,8 @@
-import './style.css';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Chip from '@mui/material/Chip';
+import '../../App.css';
+import './style.css';
 
 function Footer(){
     const handleClick = () => {

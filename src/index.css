@@ -1,9 +1,19 @@
+@font-face {
+  font-family: "google sans bold";
+  src: url("./fonts/GoogleSans-Bold-v1.27.ttf") format("truetype");
+}
+@font-face {
+  font-family: "google sans medium";
+  src: url("./fonts/GoogleSans-Medium-v1.27.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "google sans regular";
+  src: url("./fonts/GoogleSans-Regular-v1.27.ttf") format("truetype");
+}
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f5f5f5;
