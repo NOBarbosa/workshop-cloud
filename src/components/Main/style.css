@@ -5,3 +5,15 @@
   padding: 20px;
   text-align: left;
 }
+.box-center {
+  display: flex;
+  width: 100vh;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.left {
+  width: 450px;
+  flex-grow: 2;
+  margin-right: 10%;
+}

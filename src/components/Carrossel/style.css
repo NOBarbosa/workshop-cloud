@@ -1,0 +1,13 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+}
+.arrow {
+  cursor: pointer;
+}
