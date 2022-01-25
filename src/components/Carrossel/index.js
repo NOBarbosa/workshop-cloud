@@ -18,7 +18,7 @@ const Carrossel = () =>{
 
   return( 
     <section>
-      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR6ikMPDgwHXFiKZeMLLj5DZlSjnVtGCKjGXVbQJNfFcrZYwwHIbkKlMPgBneOv8ZP6UOAYuKgSTU55/embed?start=false&loop=false&delayms=3000" frameborder="0" width="600" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR6ikMPDgwHXFiKZeMLLj5DZlSjnVtGCKjGXVbQJNfFcrZYwwHIbkKlMPgBneOv8ZP6UOAYuKgSTU55/embed?start=false&loop=false&delayms=3000" frameBorder="0" width="600" height="569" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </section>
     // <section className='slider'> 
     //   <ArrowBackIcon  className='arrow' onClick ={prevImg}/>
