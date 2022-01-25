@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 20%;
+  height: 10%;
   background-color: rgb(255, 255, 255);
   padding: 3px 2px;
   box-shadow: 10px 5px 5px #b4b4b448;
@@ -23,7 +23,8 @@
 }
 .header-list li {
   list-style-type: none;
-  margin-right: 5px;
+  margin-right: 15px;
+  cursor: pointer;
 }
 .header-list a {
   text-decoration: none;
@@ -38,4 +39,5 @@
 }
 .header-title p {
   color: #4285f4;
+  margin: auto;
 }
