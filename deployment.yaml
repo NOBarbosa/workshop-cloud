@@ -1,0 +1,48 @@
+apiVersion: "apps/v1"
+kind: "Deployment"
+metadata:
+  name: "workshop-cloud-kube"
+  namespace: "default"
+  labels:
+    app: "workshop-cloud-kube"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "workshop-cloud-kube"
+  template:
+    metadata:
+      labels:
+        app: "workshop-cloud-kube"
+    spec:
+      containers:
+        - name: "workshop-cloud-sha256-1"
+          image: "gcr.io/workshop-cloud-334601/workshop-cloud@sha256:54f7920faf2c243ff94547572153f46df3a8ba0ad6aca46c1a9b08a0c7c46dcf"
+          resources:
+            #cpu and memory limit
+            limits:
+              memory: "550Mi"
+              cpu: "500m"
+          ports:
+            #the port on which the app can be reached out inside the container
+            - containerPort: 80
+---
+apiVersion: "autoscaling/v2beta1"
+kind: "HorizontalPodAutoscaler"
+metadata:
+  name: "workshop-cloud-kube-hpa-hfiz"
+  namespace: "default"
+  labels:
+    app: "workshop-cloud-kube"
+spec:
+  scaleTargetRef:
+    kind: "Deployment"
+    name: "workshop-cloud-kube"
+    apiVersion: "apps/v1"
+  minReplicas: 1
+  maxReplicas: 5
+  metrics:
+    - type: "Resource"
+      resource:
+        name: "cpu"
+        targetAverageUtilization: 80
