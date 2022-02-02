@@ -7,11 +7,14 @@
   background-color: rgb(255, 255, 255);
   padding: 3px 2px;
   box-shadow: 10px 5px 5px #b4b4b448;
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 
 .header-logo {
-  width: 130px;
-  height: 80px;
+  width: 100px;
+  height: 60px;
 }
 .header-logo-cloud {
   width: 50px;
