@@ -6,7 +6,7 @@ metadata:
   labels:
     app: "workshop-cloud-kube"
 spec:
-  replicas: 2
+  replicas: 6
   selector:
     matchLabels:
       app: "workshop-cloud-kube"
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: "workshop-cloud-sha256-1"
-          image: "gcr.io/workshop-cloud-334601/workshop-cloud@sha256:54f7920faf2c243ff94547572153f46df3a8ba0ad6aca46c1a9b08a0c7c46dcf"
+          image: "southamerica-east1-docker.pkg.dev/workshop-cloud-340123/workshop-cloud/front:latest"
           resources:
             #cpu and memory limit
             limits:
@@ -39,8 +39,8 @@ spec:
     kind: "Deployment"
     name: "workshop-cloud-kube"
     apiVersion: "apps/v1"
-  minReplicas: 1
-  maxReplicas: 5
+  minReplicas: 4
+  maxReplicas: 10
   metrics:
     - type: "Resource"
       resource:

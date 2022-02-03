@@ -12,13 +12,11 @@ baixe isso: https://cloud.google.com/sdk/docs/install
 
 faça o login no gcloud
 
-gcloud auth configure-docker
-docker tag workshop-cloud gcr.io/<id-project>/workshop-cloud
-gcloud docker push gcr.io/<id-project>/workshop-cloud
+gcloud auth configure-docker southamerica-east1-docker.pkg.dev
 
-docker tag workshop-cloud southamerica-east1-docker.pkg.dev/workshop-cloud-339513/workshop-cloud/front:latest
-docker push southamerica-east1-docker.pkg.dev/workshop-cloud-339513/workshop-cloud/front:latest
+docker tag workshop-cloud southamerica-east1-docker.pkg.dev/<project-id>/workshop-cloud/front:latest
+docker push southamerica-east1-docker.pkg.dev/<project-id>/workshop-cloud/front:latest
 
 gcloud components install kubectl
 
-gcloud container clusters get-credentials <nome-do-cluster>
+gcloud container clusters get-credentials cluster-1 --zone=us-central1-c --project=workshop-cloud-340123
