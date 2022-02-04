@@ -6,15 +6,22 @@
    - Instalação de ferramentas e preparação do ambiente
    - Configurações    
  
+ 
  ### Escolha do Projeto
-   Utilizaremos para o deploy uma imagem docker com a aplicação de uma página construída em ReactJs.
-   A criação da página não é o foco do projeto entretanto, abaixo você encontrará a descrição do processo para elaboração da mesma.
+   Utilizaremos para o deploy uma imagem docker com a aplicação de uma página construída em ReactJs. 
+   A criação da página não é o foco do projeto entretanto, abaixo você encontrará a descrição do processo para elaboração da mesma. <br>
+   <strong> Caso seu interesse seja somente em utilizar o projeto basta fazer o clone do repositório e  realizar os seguintes passos: <br>
+         - navegue até o projeto e abra o mesmo com seu editor de código <br>
+         - Rode no terminal o comando: npm install ou yarn install <br>
+         - Inicialize o projeto com o comando: npm start ou yarn start
+   </strong>
    
    #### Ferramentas e Configurações de Ambiante para construção da página
       - Editor de código: VS Code
       - NodeJs + NPM
       - DOCKER 
- 
+   #### 1º
+      
 ### Comandos
 
 
