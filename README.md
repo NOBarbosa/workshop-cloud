@@ -6,6 +6,14 @@
    - Instalação de ferramentas e preparação do ambiente
    - Configurações    
  
+ ### Escolha do Projeto
+   Utilizaremos para o deply uma imagem docker com a aplicação de uma página construída em ReaactJs.
+   A criação da página não é o foco do projeto entretanto, abaixo você encontrará a descrição do processo para elaboração da mesma.
+   
+   #### Ferramentas e Configurações de Ambiante
+      - Editor de código: VS Code
+      - NodeJs + NPM
+      - DOCKER 
  
 ### Comandos
 
