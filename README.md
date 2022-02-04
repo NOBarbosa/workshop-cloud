@@ -24,7 +24,11 @@
    2 -  Na pasta SRC iremos divir o nosso projeto em componetes, são eles: <br>
          - Header <br>
          - Main <br>
-         - Footer
+         - Footer <br>
+         - Carrossel (opcional)<br>
+         <img width="223" alt="scr-components" src="https://user-images.githubusercontent.com/75585553/152552930-6480034c-8285-489f-9ebf-2bc30b93e56a.png">
+         
+  Cada componente possui seu próprio arquivo index.js e style.css.
    
       
 ### Comandos
