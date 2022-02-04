@@ -1,7 +1,12 @@
 # Workshop Cloud
 
-### Introdução
-  
+## Introdução
+   A fim de ensinar como utilizar os recursos do  Google Cloud para fazer o deploy de uma aplicação, o GDSC UFBA preparou um workshop onde serão exibidos alguns conceitos sobre  Cloud, modelos de computação em nuvem e, um momento prático composto das seguintes etapas:
+   - Escolha do projeto  
+   - Instalação de ferramentas e preparação do ambiente
+   - Configurações    
+ 
+ 
 ### Comandos
 
 
