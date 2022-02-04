@@ -16,7 +16,7 @@
          - Inicialize o projeto com o comando: npm start ou yarn start
    </strong>
    
-   #### Ferramentas e Configurações de Ambiante para construção da página
+   #### Ferramentas e Configurações de Ambiente para construção da página
       - Editor de código: VS Code
       - NodeJs + NPM
       - DOCKER 
