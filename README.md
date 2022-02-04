@@ -10,7 +10,7 @@
    Utilizaremos para o deploy uma imagem docker com a aplicação de uma página construída em ReactJs.
    A criação da página não é o foco do projeto entretanto, abaixo você encontrará a descrição do processo para elaboração da mesma.
    
-   #### Ferramentas e Configurações de Ambiante
+   #### Ferramentas e Configurações de Ambiante para construção da página
       - Editor de código: VS Code
       - NodeJs + NPM
       - DOCKER 
