@@ -20,7 +20,12 @@
       - Editor de código: VS Code
       - NodeJs + NPM
       - DOCKER 
-   #### 1º
+   1 -  Crie o projeto com: npx create-react-app nome-do-projeto
+   2 -  Na pasta SRC iremos divir o nosso projeto em componetes, são eles: <br>
+         - Header <br>
+         - Main <br>
+         - Footer
+   
       
 ### Comandos
 
