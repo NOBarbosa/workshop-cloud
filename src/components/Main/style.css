@@ -9,7 +9,7 @@
   display: flex;
   width: 100vh;
   justify-content: space-between;
-  gap: 30px;
+  gap: 50px;
 }
 
 .left {
@@ -19,5 +19,5 @@
 }
 
 .mg-bot {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }

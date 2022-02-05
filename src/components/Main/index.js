@@ -46,7 +46,7 @@ function Main(){
       <div>
         <h2 id="intro" className='font-bold size-28'>Introdução</h2>
         <p className='font-regular size-14 mg-bot'>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          O que é computação em Nuvem? Qual a utilidade? Como se aplica? A computação em nuvem é o fornecimento de serviços de computação, incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência, pela Internet (“a nuvem”) para oferecer inovações mais rápidas, recursos flexíveis e economias de escala. O workshop sobre computação em nuvem promovido pelo Google developer students club surge para trazer uma breve introdução ao cloud computing. Logo abaixo é ilustrada a trilha de aprendizagem que seguiremos dentro do horário programado.
         </p>
       </div>
       <div className='box-center'>
