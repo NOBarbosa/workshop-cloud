@@ -34,6 +34,9 @@
 ### Comandos
 
 
+
+
+
 imagem do container local
 docker build . -t workshop-cloud
 
@@ -49,3 +52,7 @@ docker push southamerica-east1-docker.pkg.dev/<project-id>/workshop-cloud/front:
 gcloud components install kubectl
 
 gcloud container clusters get-credentials cluster-1 --zone=us-central1-c --project=workshop-cloud-340123
+
+## Referências
+http://wiki.inf.ufpr.br/maziero/doku.php?id=socm:start    <br>
+https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app
