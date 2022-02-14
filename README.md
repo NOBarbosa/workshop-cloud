@@ -4,7 +4,8 @@
    A fim de ensinar como utilizar os recursos do  Google Cloud para fazer o deploy de uma aplicação, o GDSC UFBA preparou um workshop onde serão exibidos alguns conceitos sobre  Cloud, modelos de computação em nuvem e, um momento prático composto das seguintes etapas:
    - Escolha do projeto  
    - Instalação de ferramentas e preparação do ambiente
-   - Configurações    
+   - Configurações
+   - Deploy do projeto    
  
  
  ### Escolha do Projeto
@@ -29,7 +30,13 @@
          <img width="223" alt="scr-components" src="https://user-images.githubusercontent.com/75585553/152552930-6480034c-8285-489f-9ebf-2bc30b93e56a.png">
          
   Cada componente possui seu próprio arquivo index.js e style.css.
-   
+  
+  #### O por quê do Docker:
+      Além de ser padrão de mercado, ter a possibilidade de transformar uma aplicação em imagem docker permite que ela seja alocada 
+      como container em ambientes diferentes, fazendo com que ela possa ser utilizada tanto no computador do desenvolvedor quanto
+      no servidor da produção, por exemplo.
+      Outra vantagem é que o grupo de máquinas físicas ou virtuais onde os containers são executados (cluster) permite maior 
+      facilidade de gerenciamento uma vez que é possível monitorar constantemente.
       
 ### Comandos
 
@@ -54,5 +61,6 @@ gcloud components install kubectl
 gcloud container clusters get-credentials cluster-1 --zone=us-central1-c --project=workshop-cloud-340123
 
 ## Referências
-http://wiki.inf.ufpr.br/maziero/doku.php?id=socm:start    <br>
-https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app
+   - http://wiki.inf.ufpr.br/maziero/doku.php?id=socm:start    
+   - https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app 
+   - https://www.globalmind.com.br/vantagens-da-utilizacao-do-docker-container/
