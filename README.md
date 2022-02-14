@@ -21,6 +21,7 @@
       - Editor de código: VS Code
       - NodeJs + NPM
       - DOCKER 
+      - GCLOUD
    1 -  Crie o projeto com: npx create-react-app nome-do-projeto <br>
    2 -  Na pasta SRC iremos divir o nosso projeto em componetes, são eles: <br>
          - Header <br>
