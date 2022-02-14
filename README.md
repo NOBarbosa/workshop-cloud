@@ -39,6 +39,13 @@
       Outra vantagem é que o grupo de máquinas físicas ou virtuais onde os containers são executados (cluster) permite maior 
       facilidade de gerenciamento uma vez que é possível monitorar constantemente.
       
+      
+  ## Google Cloud Platform
+
+   <strong> Com sua conta já criada, siga os passos: <strong>
+   
+      - Selecione My first project > novo projeto > escolha um nome > confirme a criação
+      
 ### Comandos
 
 
