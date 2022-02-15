@@ -57,6 +57,17 @@
       <img width="400" alt="compute engine" src="https://user-images.githubusercontent.com/75585553/154123459-d4c68aa6-0b9d-49e5-8088-7ea33b89dd0a.png">
       <img width="400" alt="ativar" src="https://user-images.githubusercontent.com/75585553/154123484-06675aa4-e90a-420a-bd0b-33b91336270b.png">
    </div>
+   
+   #### Maquinas Virtuais VM
+   
+      - Criar instância > renomei (opcional) > selecione a região > configure a máquina > selecione o disco de inicialização (Sistema operacional) > 
+      - Em firewall selecione "Permitir tráfego HTTP" > Clique em "CRIAR"
+    * Deixamos as configurações padrões tanto da máquina quanto do SO pois, são mais que suficiente para o projeto em questão
+  <div>
+     <img width="400" alt="vm" src="https://user-images.githubusercontent.com/75585553/154125662-ed5ac213-c3b7-43bb-bd20-a11da7e29be4.png">
+     <img width="400" alt="vm" src="https://user-images.githubusercontent.com/75585553/154126105-eb8c5761-c207-4e04-8382-dbd96bc99571.png">
+     <img width="400" alt="vm" src="https://user-images.githubusercontent.com/75585553/154126330-c30ede46-486b-485c-9c94-51de303c7f6c.png">
+   </div>
       
 ### Comandos
 
