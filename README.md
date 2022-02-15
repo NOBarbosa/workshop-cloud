@@ -7,6 +7,9 @@
    - Configurações
    - Deploy do projeto    
  
+  #### Ferramentas necessárias para acompanhar o projeto:
+         - gcloud
+         - Clonar o projeto
  
  ### Escolha do Projeto
    Utilizaremos para o deploy uma imagem docker com a aplicação de uma página construída em ReactJs. 
@@ -16,6 +19,7 @@
          - Rode no terminal o comando: npm install ou yarn install <br>
          - Inicialize o projeto com o comando: npm start ou yarn start
    </strong> [Assista ao Vídeo](https://youtu.be/gpw6euz3-98)
+   
    
    #### Ferramentas e Configurações de Ambiente para construção da página
       - Editor de código: VS Code
