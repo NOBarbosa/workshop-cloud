@@ -51,6 +51,12 @@
       <img width="400" alt="newproject2" src="https://user-images.githubusercontent.com/75585553/154121387-d774ac16-eecc-4d83-87ba-acaacb249d5e.png">
       <img width="400" alt="project" src="https://user-images.githubusercontent.com/75585553/154122583-7d585a1c-12c6-402b-9ff8-cb0502ee966b.png">
    </div>   
+   
+   <strong> Habilitando alguns serviços: </strong>
+   <div>
+      <img width="400" alt="compute engine" src="https://user-images.githubusercontent.com/75585553/154123459-d4c68aa6-0b9d-49e5-8088-7ea33b89dd0a.png">
+      <img width="400" alt="ativar" src="https://user-images.githubusercontent.com/75585553/154123484-06675aa4-e90a-420a-bd0b-33b91336270b.png">
+   </div>
       
 ### Comandos
 
