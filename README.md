@@ -44,11 +44,12 @@
 
    <strong> Com sua conta já criada, siga os passos: <strong>
    
-      - Selecione My first project > novo projeto > escolha um nome > confirme a criação
+      - Selecione My first project > novo projeto > escolha um nome > confirme a criação > abra o projeto
    <div gap="20">
       <img width="400" alt="first project" src="https://user-images.githubusercontent.com/75585553/154121106-f44f9ddc-b71d-4819-9ebb-65f67895acb4.png">
       <img width="400" alt="newproject" src="https://user-images.githubusercontent.com/75585553/154121301-19e9c3d0-5af6-4b33-978d-9eb4ca5a3e03.png">
       <img width="400" alt="newproject2" src="https://user-images.githubusercontent.com/75585553/154121387-d774ac16-eecc-4d83-87ba-acaacb249d5e.png">
+      <img width="400" alt="project" src="https://user-images.githubusercontent.com/75585553/154122583-7d585a1c-12c6-402b-9ff8-cb0502ee966b.png">
    </div>   
       
 ### Comandos
