@@ -80,7 +80,20 @@
          - git clone "repositório do projeto"
          - cd "pasta-do-projeto"
          - curl -fsSl  https://deb.nodesource.com/setup_14.x | sudo -E bash -
-         - 
+         - sudo apt-get install -y nodejs
+         - npm i
+         - npm run-script build
+         - sudo npm install -g serve
+         - sudo serve -l 80 -s build
+         
+   #### Pronto, você receberá a seguinte mensagem:
+   <img width="404" alt="vm" src="https://user-images.githubusercontent.com/75585553/154557178-d75b4b5e-76b3-4f6b-8ee9-73ace3ad33fb.png">
+   
+   Ao retornar para página do Google Cloud, você poderá observar a informação IP externo preenchida. Pode pegar esse link e enviar pra seus amigos que eles conseguirão       visualizar seu projeto.
+   
+<img width="901" alt="vm" src="https://user-images.githubusercontent.com/75585553/154557643-1bf3698c-e0e4-4447-a7de-6d758e2ad146.png">
+
+
    
       
 ### Comandos
