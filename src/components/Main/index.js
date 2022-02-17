@@ -107,7 +107,8 @@ function Main(){
       <div>
         <h2 className='font-bold size-28'>Resumo</h2>
         <p className='font-regular  size-14'>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        Durante a execução do projeto em um primeiro momento exibimos os passos para servir nossa aplicação a partir de uma VM (máquina virtual). Entretanto, como foi possível observar, o processo foi bastante trabalhoso e exigiu uma série extensa de configurações e comandos.
+        Pensando em uma forma mais prática de fazer o deploy da aplicação, resolvemos também utilizar uma VM porém, dessa vez com a imagem docker (mais próxima de um PaaS).
         </p>
       </div>
      </main>
