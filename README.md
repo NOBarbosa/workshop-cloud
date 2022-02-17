@@ -97,8 +97,21 @@
    #### Deploy com a imagem Docker
       * Vamos seguir as seguintes orientações após ter excluído o projeto anterior
       
-### Comandos
+##### * As configurações do nosso arquivo Dockerfile e ngnx.config se encontram dentro do projeto.
+   
+   #### https://hub.docker.com/ 
 
+   O procedimento incial é semelhante ao anterior.
+      - Crie uma nova Instância de VM
+      - Escolha um nome para seu projeto e faça as configurações da máquina
+      -  <strong> Procure por Contêiner e selecione 'Deploy Contêiner' </strong>
+      -  Selecione a imagem do contêiner
+      - Escolha a política de reinicialização  (sugestão: "em caso de falha")
+      - pronto, já pode confirmar 
+      - Mantenha o restante das configuração iguais a da primeira VM
+   
+     
+   
 
 
 
