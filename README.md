@@ -94,7 +94,8 @@
 <img width="901" alt="vm" src="https://user-images.githubusercontent.com/75585553/154557643-1bf3698c-e0e4-4447-a7de-6d758e2ad146.png">
 
 
-   
+   #### Deploy com a imagem Docker
+      * Vamos seguir as seguintes orientações após ter excluído o projeto anterior
       
 ### Comandos
 
