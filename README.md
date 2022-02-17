@@ -109,6 +109,8 @@
       - Escolha a política de reinicialização  (sugestão: "em caso de falha")
       - pronto, já pode confirmar 
       - Mantenha o restante das configuração iguais a da primeira VM
+      - Crie a máquina
+      - Seu IP externo já está disponível
    
      
    
