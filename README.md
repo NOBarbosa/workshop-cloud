@@ -7,18 +7,15 @@
    - Configurações
    - Deploy do projeto    
  
-  #### Ferramentas necessárias para acompanhar o projeto:
+  #### Ferramentas necessárias para acompanhar o projeto Ao Vivo:
          - gcloud
          - Clonar o projeto
  
  ### Escolha do Projeto
    Utilizaremos para o deploy uma imagem docker com a aplicação de uma página construída em ReactJs. 
    A criação da página não é o foco do projeto entretanto, abaixo você encontrará a descrição básica do processo para elaboração da mesma. <br>
-   <strong> Caso seu interesse seja somente em utilizar o projeto basta fazer o clone do repositório e  realizar os seguintes passos: <br>
-         - navegue até o projeto e abra o mesmo com seu editor de código <br>
-         - Rode no terminal o comando: npm install ou yarn install <br>
-         - Inicialize o projeto com o comando: npm start ou yarn start
-   </strong> [Assista ao Vídeo](https://youtu.be/gpw6euz3-98)
+  
+   [Assista ao Vídeo](https://youtu.be/gpw6euz3-98)
    
    
    #### Ferramentas e Configurações de Ambiente para construção da página
@@ -72,6 +69,19 @@
      <img width="400" alt="vm" src="https://user-images.githubusercontent.com/75585553/154126105-eb8c5761-c207-4e04-8382-dbd96bc99571.png">
      <img width="400" alt="vm" src="https://user-images.githubusercontent.com/75585553/154126330-c30ede46-486b-485c-9c94-51de303c7f6c.png">
    </div>
+   
+   #### Terminadas as configurações, iremos agora nos conectar à máquina criada. Em seguida, seguiremos uma série de comandos para enfim fazer o deploy da aplicação:
+   
+   <img width="926" alt="vm" src="https://user-images.githubusercontent.com/75585553/154554220-6d3ec300-bb8a-4f4f-9cb0-5b9c96c0d35f.png">
+   
+   ### Será aberto um terminal e, a partir dele precisaremos digitar os seguintes comandos para instalar as dependências necessárias:
+         - sudo apt update
+         - sudo apt install git
+         - git clone "repositório do projeto"
+         - cd "pasta-do-projeto"
+         - curl -fsSl  https://deb.nodesource.com/setup_14.x | sudo -E bash -
+         - 
+   
       
 ### Comandos
 
