@@ -122,10 +122,13 @@
       - Autopilot do GKE > 'CONFIGURAR'
       - Escolha Nome, Região e selecione 'CRIAR'
       - Agora vá até o terminal do projeto e faça login no gcloud. Utilize os seguintes comandos:
-         - gcloud auth login
+         * gcloud auth login
       - instale o plugin do Kubernets 
-         - gcloud components install kubectl
-   
+         * gcloud components install kubectl
+      - Após a conclusão da criação do cluster volte ao terminal e digite o seguinte comando fazendo as devidas substituições:
+         * gcloud container clusters get-credentials <nome-docluster> --zone=<local-do-cluster> --project=<id-projeto>
+      - Quando conectado execute:
+         * kubectl apply -f deployment.yaml
      
    
 
