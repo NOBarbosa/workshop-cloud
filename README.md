@@ -94,23 +94,37 @@
 <img width="901" alt="vm" src="https://user-images.githubusercontent.com/75585553/154557643-1bf3698c-e0e4-4447-a7de-6d758e2ad146.png">
 
 
-   #### Deploy com a imagem Docker
+   ### Deploy com a imagem Docker
       * Vamos seguir as seguintes orientações após ter excluído o projeto anterior
       
 ##### * As configurações do nosso arquivo Dockerfile e ngnx.config se encontram dentro do projeto.
    
-   #### https://hub.docker.com/ 
+  
 
    O procedimento incial é semelhante ao anterior.
       - Crie uma nova Instância de VM
       - Escolha um nome para seu projeto e faça as configurações da máquina
       -  <strong> Procure por Contêiner e selecione 'Deploy Contêiner' </strong>
-      -  Selecione a imagem do contêiner
+      -  Selecione a imagem do contêiner (Neste caso utilize jonathanbisp/workshop-cloud)
       - Escolha a política de reinicialização  (sugestão: "em caso de falha")
       - pronto, já pode confirmar 
       - Mantenha o restante das configuração iguais a da primeira VM
       - Crie a máquina
       - Seu IP externo já está disponível
+    
+   ### Kubernetes Engine
+     Agora, faremos a entrega do nosso projeto de forma ainda mais otimizada com o Kubernetes. Para isso, é necessário seguir os seguintes passos:
+      
+      - De volta na págine do Google Cloud Platform, utilize o menu lateral para procurar por Kubernetes Engine, selecione está opção.
+      - Ative a API do Kubernetes Engine
+      - Clone o repositório do projeto, dentro dele existe um arquivo chamado deployment.yaml com as configurações necessárias
+      -  Assim que ativada a API do kubernetes engine, será exibido em tela o Cluster do Kubernetes com alguas opções. Selecione a opção 'CRIAR'
+      - Autopilot do GKE > 'CONFIGURAR'
+      - Escolha Nome, Região e selecione 'CRIAR'
+      - Agora vá até o terminal do projeto e faça login no gcloud. Utilize os seguintes comandos:
+         - gcloud auth login
+      - instale o plugin do Kubernets 
+         - gcloud components install kubectl
    
      
    
