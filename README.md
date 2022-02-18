@@ -129,27 +129,14 @@
          * gcloud container clusters get-credentials <nome-docluster> --zone=<local-do-cluster> --project=<id-projeto>
       - Quando conectado execute:
          * kubectl apply -f deployment.yaml
+      - Aguarde a criação na página do Google Cloud Platform, quando disponível será exibida a informação 'Pontos de Extremidade'. Pronto, já foi feito o deploy do seu projeto.
      
    
 
+## Link da Gravação: Em breve
 
-
-
-imagem do container local
-docker build . -t workshop-cloud
 
 baixe isso: https://cloud.google.com/sdk/docs/install
-
-faça o login no gcloud
-
-gcloud auth configure-docker southamerica-east1-docker.pkg.dev
-
-docker tag workshop-cloud southamerica-east1-docker.pkg.dev/<project-id>/workshop-cloud/front:latest
-docker push southamerica-east1-docker.pkg.dev/<project-id>/workshop-cloud/front:latest
-
-gcloud components install kubectl
-
-gcloud container clusters get-credentials cluster-1 --zone=us-central1-c --project=workshop-cloud-340123
 
 ## Referências
    - http://wiki.inf.ufpr.br/maziero/doku.php?id=socm:start    
