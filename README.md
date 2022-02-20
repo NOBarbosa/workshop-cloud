@@ -133,7 +133,7 @@
      
    
 
-## Link da Gravação: Em breve
+## Link da Gravação: https://drive.google.com/file/d/1ux5h5xBvDmPmlsanoF5fw_EtbxKP1G6I/view?usp=sharing
 
 
 baixe isso: https://cloud.google.com/sdk/docs/install
