@@ -98,19 +98,16 @@
       * Vamos seguir as seguintes orientações após ter excluído o projeto anterior
       
 ##### * As configurações do nosso arquivo Dockerfile e ngnx.config se encontram dentro do projeto.
-   
-  
-
-   O procedimento incial é semelhante ao anterior.
-      - Crie uma nova Instância de VM
-      - Escolha um nome para seu projeto e faça as configurações da máquina
-      -  <strong> Procure por Contêiner e selecione 'Deploy Contêiner' </strong>
-      -  Selecione a imagem do contêiner (Neste caso utilize jonathanbisp/workshop-cloud)
-      - Escolha a política de reinicialização  (sugestão: "em caso de falha")
-      - pronto, já pode confirmar 
-      - Mantenha o restante das configuração iguais a da primeira VM
-      - Crie a máquina
-      - Seu IP externo já está disponível
+      * O procedimento incial é semelhante ao anterior.
+            - Crie uma nova Instância de VM
+            - Escolha um nome para seu projeto e faça as configurações da máquina
+            -  <strong> Procure por Contêiner e selecione 'Deploy Contêiner' </strong>
+            -  Selecione a imagem do contêiner (Neste caso utilize jonathanbisp/workshop-cloud)
+            - Escolha a política de reinicialização  (sugestão: "em caso de falha")
+            - pronto, já pode confirmar 
+            - Mantenha o restante das configuração iguais a da primeira VM
+            - Crie a máquina
+            - Seu IP externo já está disponível
     
    ### Kubernetes Engine
      Agora, faremos a entrega do nosso projeto de forma ainda mais otimizada com o Kubernetes. Para isso, é necessário seguir os seguintes passos:
@@ -142,3 +139,4 @@ baixe isso: https://cloud.google.com/sdk/docs/install
    - http://wiki.inf.ufpr.br/maziero/doku.php?id=socm:start    
    - https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app 
    - https://www.globalmind.com.br/vantagens-da-utilizacao-do-docker-container/
+   - https://azure.microsoft.com/pt-br/overview/what-is-cloud-computing/#cloud-deployment-types
